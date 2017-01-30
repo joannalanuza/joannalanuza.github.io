@@ -20,8 +20,8 @@ h2{
 	margin:  0;
 }
 h3{
-font-size: 18px;
-font-weight: 900;
+	font-size: 18px;
+	font-weight: 900;
 }
 h4{
 	text-transform: uppercase;
@@ -47,13 +47,13 @@ a:focus{
 	color: #a8d03b;
 }
 .clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
 .clearfix { display: inline-block; }
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
@@ -340,14 +340,14 @@ img.img-circle.team-img {
 	margin: 25px auto 30px;
 }
 #contact_us > div {
-	padding: 65px 0;
+	padding: 60px 0 0;
 }
 #contact_us_form {
 	margin: 30px auto;
 }
 #services_gallery hr,
 #contact_us hr {
-	margin: 20px auto;
+	margin: 20px auto 10px;
 }
 .contact-desc {
 	margin: auto;
@@ -363,6 +363,32 @@ img.img-circle.team-img {
 #contact_us_form .form-control {
 	border-radius: 0;
 }
+#contact_us_form .form-control:not(.text-area) {
+	height: 32px;
+}
 #contact_us_form .form-group label {
 	font-size: 12px;
+}
+#footer_wrap {
+	height: 70px;
+	background-color: #222222 !important;
+}
+.copyright {
+	line-height: 70px;
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	margin-left: 30px;
+	font-weight:300;
+	font-size: 12px;
+}
+.copyright-text {
+	padding-right: 10px;
+	border-right: 1px solid #a8d03b;
+}
+.copyright-text .brand-name {
+	color: #a8d03b;
+}
+.all-rights-text {
+	padding-left: 10px;
 }
