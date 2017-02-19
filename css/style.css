@@ -77,9 +77,6 @@ ul, ol{
 	font-weight: 700;
 	border-bottom: 3px solid #ffffff;
 }
-.navbar-toggle {
-	border-radius: 0;
-}
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
 	border-color: #a8d03b;
