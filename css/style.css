@@ -627,6 +627,12 @@ img.img-circle.team-img {
 		margin: auto;
 		width: 70%;
 	}
+	#gallery .gallery-desc {
+		width: 90%;
+	}
+	#gallery .item img {
+		width: 70%;
+	}
 }
 @media (max-width: 400px) {
 	body,
