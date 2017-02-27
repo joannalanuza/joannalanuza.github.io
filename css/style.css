@@ -93,10 +93,10 @@ ul, ol{
 	font-family: 'Raleway', sans-serif;
 }
 #header_wrap {
-	background: transparent;
-	padding: 20px;
 	transition: all 0.8s;
 	border: none;
+	background-color: rgba(0, 0, 0, 0.88) !important;
+	padding: 0 !important;
 }
 .header-logo {
 	height:	40px;
@@ -112,28 +112,28 @@ ul, ol{
 .head-logo-subtext{
 	vertical-align: middle;
 }
-.on #header_main_logo {
+#header_main_logo {
 	width: 30px;
 }
-.on .head-logo-label {
+.head-logo-label {
 	display: inline-block;
+}
+.header-lining img {
+	display: block;
+	width: 100%;
+	height: 5px;
 }
 .navbar-default .header-nav-wrap  .navbar-nav > li > a {
 	letter-spacing: 1px;
 	font-size: 12px;
-	padding: 13px 15px;
+	padding: 13px 15px 5px;
 }
 .header-logo-label,
 .navbar-default .header-nav-wrap  .navbar-nav > li > a {
 	color: #ffffff;
 }
-.on {
-	background-color: rgba(0, 0, 0, 0.88) !important;
-	padding: 0 !important;
-}
-
 #homepage .content {
-	padding-top: 165px;\
+	padding-top: 165px;
 }
 .cropped-truck {
 	width:94%;
